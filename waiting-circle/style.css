@@ -1,0 +1,53 @@
+body{
+    position: relative;
+    background-image: url(http://videogamedj.com/wp-content/uploads/2015/10/maxresdefault.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+div{
+    position: relative;
+     width: 30vw;
+    height: 30vw;
+    margin: 10vw auto;
+}
+.boader{
+    
+    border:15px dotted cyan;
+    border-image:linear-gradient(left,cyan 80%,lightpink 20%);
+    border-radius: 100%;
+    animation-name: circle;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   }
+   @keyframes circle{
+       from{
+           
+          transform: rotate(0deg);
+       }
+       to{ 
+           transform:rotate(360deg) ;
+       }
+   }
+   div img{
+       position: absolute;
+       width: 20vw;
+      left: 15%;
+      top: 60%;
+   }
+   a{
+    text-decoration: none;
+}
+
+P{
+position: relative;
+text-align: center;
+color: cyan; 
+font-family:'Press Start 2P', cursive; ;
+}
+p:hover{
+   color: deeppink;
+}
+   
+

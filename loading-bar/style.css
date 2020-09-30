@@ -1,0 +1,71 @@
+body{
+    background-image:url(https://i.pinimg.com/736x/56/ce/73/56ce73d2edf6a10ed234da46f552b922.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    }
+
+.container{
+    background:rgba(255,255,255, 0.3);
+    height: 100%;
+    width: 100%;
+    
+}
+     .my_text{
+        position: relative;
+        text-align: center;
+        margin-top: 20%;
+        -webkit-text-stroke: 2px deeppink;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 10vw;
+        background-image: -webkit-linear-gradient(left,rgb(255, 180, 205) 50%,transparent 50%
+        );
+        background-repeat: no-repeat;
+        background-size: 170% 100%;
+        -webkit-text-fill-color: transparent;   
+        -webkit-background-clip: text;
+        animation-name:fill-color;
+        animation-duration: 10s;
+        animation-direction: alternate;
+        animation-delay: -2s;
+    } 
+   
+    @keyframes fill-color {
+        0% {
+            background-size:30% 100% 
+        }
+        50%{
+            background-size: 30% 100%
+        }
+        60%{
+            background-size: 50% 100%;
+        }
+        80%{
+            background-size: 120% 100%
+        }
+        90%{
+            background-size: 155% 100%;
+        }
+        95%{
+            background-size: 155% 100%;
+        }
+   
+        100% {
+            background-size:170% 100% ;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+
+   P{
+    position: relative;
+    text-align: center;
+    color: deeppink; 
+    font-family:'Press Start 2P', cursive; ;
+   }
+   p:hover{
+       color: aqua;
+   }
+      
+    
+        
